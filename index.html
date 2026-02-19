@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Indian Navy Website</title>
+<title>Indian Navy Website</title>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<table border="1" width="100%">
-<tr>
-<td width="40%" align="center">
-<img src="logo.jpg" width="200">
-<h3>Navy</h3>
-</td>
+<table border="1" width="100%" height="700">
 
-<td align="center">
+<!-- HEADER -->
+<tr height="120">
+<td colspan="2" align="center">
 <h1>Indian Navy Website</h1>
 <p>Service Before Self</p>
 </td>
 </tr>
-</table>
 
-<!-- NAVIGATION LINKS -->
-<table border="1" width="100%">
-<tr align="center">
-<td><a href="HOME.html" target="contentFrame">Home</a></td>
-<td><a href="ABOUT.html" target="contentFrame">About</a></td>
-<td><a href="REGISTRATION.html" target="contentFrame">Registration</a></td>
-<td><a href="CONTACTUS.html" target="contentFrame">Contact Us</a></td>
-<td><a href="OPERATIONS.html" target="contentFrame">Operations</a></td>
+<!-- NAV LINKS -->
+<tr height="60">
+<td colspan="2" align="center">
+
+<a href="home_content.html" target="contentFrame">Home</a> |
+<a href="about_content.html" target="contentFrame">About</a> |
+<a href="registration_content.html" target="contentFrame">Registration</a> |
+<a href="contactus_content.html" target="contentFrame">Contact Us</a> |
+<a href="operations_content.html" target="contentFrame">Operations</a>
+
+</td>
 </tr>
-</table>
 
-<!-- IFRAME CONTENT AREA -->
-<iframe name="contentFrame" width="100%" height="500"></iframe>
+<!-- 3rd ROW SPLIT -->
+<tr>
+
+<!-- LEFT = SERVICES -->
+<td width="25%" valign="top">
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="home_content.html" target="contentFrame">Home</a></li>
+<li><a href="about_content.html" target="contentFrame">About</a></li>
+<li><a href="registration_content.html" target="contentFrame">Registration</a></li>
+<li><a href="contactus_content.html" target="contentFrame">Contact Us</a></li>
+<li><a href="operations_content.html" target="contentFrame">Operations</a></li>
+</ul>
+
+</td>
+
+<!-- RIGHT = IFRAME -->
+<td>
+
+<iframe name="contentFrame" width="100%" height="500">
+</iframe>
+
+</td>
+
+</tr>
+
+</table>
 
 </body>
 </html>
